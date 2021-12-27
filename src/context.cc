@@ -1,11 +1,6 @@
 #include "context.hpp"
 
 #include <atomic>
-#include <cstddef>
-#include <cstdint>
-#include <cstdlib>
-#include <cstring>
-#include <thread>
 #include <vector>
 
 #include "impl/uv/uvreactor.hpp"

@@ -1,11 +1,8 @@
 #include "endpoint.hpp"
 
 #include "codec.hpp"
-#include "session.hpp"
-#include "types.hpp"
-//
 #include "impl/uv/uvacceptor.hpp"
-//
+
 namespace msg {
 
 struct EndPoint::Impl {
